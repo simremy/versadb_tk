@@ -1,2 +1,2 @@
 # sunburst
-	Foldere containing all generated Sunbursts
+	Folder containing all generated Sunbursts
