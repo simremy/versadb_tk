@@ -23,5 +23,5 @@
 @echo		  i ii           i\ \
 @timeout /t 5
 @call conda activate versadb_env
-@cd "C:\Users\%username%\Desktop\versadb_tk-main\"
+@cd "C:\Users\%username%\Desktop\versadb_tk-master\"
 python quichante.py
