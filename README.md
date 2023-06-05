@@ -25,7 +25,7 @@ To add to PATH in Windows :
 ![env](https://github.com/simremy/versadb_tk/assets/41745996/57fadb75-5393-4712-a1ea-8ef967b164b3)
 
 
-1. Clone VersaDB repo or download the .zip file  on your Desktop. **DO NOT CHANGE THE FOLDER LOCATION OR NAME**
+1. Download and extract the versadb_tk-master folder from the .zip file on your Desktop. **DO NOT CHANGE THE FOLDER LOCATION OR NAME**
 2. Click on install.bat and wait. This batch file will create a new anaconda environment, install all dependencies, and configure NMRShiftDB and the CFM-ID docker container. (If this doesn't work try the uninstall.bat file and run again install.bat.)
 
 ## Run the program
