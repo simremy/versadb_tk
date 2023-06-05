@@ -22,32 +22,32 @@
 @echo	          /__i  AC / DC  i__\
 @echo		  i ii           i\ \
 @timeout /t 5
-@cd C:\Users\%username%\Desktop\versadb_tk-main\log\
+@cd C:\Users\%username%\Desktop\versadb_tk-master\log\
 @del *.txt
 
-@cd C:\Users\%username%\Desktop\versadb_tk-main\LOTUS_DB_input\
+@cd C:\Users\%username%\Desktop\versadb_tk-master\LOTUS_DB_input\
 @del *.txt
 @del *.tsv
 
-@cd C:\Users\%username%\Desktop\versadb_tk-main\NMRShift\
+@cd C:\Users\%username%\Desktop\versadb_tk-master\NMRShift\
 @del *predictSdf.bat
 @del *.txt
 
-@cd C:\Users\%username%\Desktop\versadb_tk-main\setup\
+@cd C:\Users\%username%\Desktop\versadb_tk-master\setup\
 @del *.txt
 
-@cd C:\Users\%username%\Desktop\versadb_tk-main\sunburst\
+@cd C:\Users\%username%\Desktop\versadb_tk-master\sunburst\
 @del *.html
 
 @call conda env remove -n versadb_env
 @call conda env remove -n my-rdkit-env-lotus
 
-set /p var=<C:\Users\%username%\Desktop\versadb_tk-main\CFM_ID_4\ID_container_cfmid.txt
+set /p var=<C:\Users\%username%\Desktop\versadb_tk-master\CFM_ID_4\ID_container_cfmid.txt
 @echo %var%
 @call docker image rm -f wishartlab/cfmid:4.2.6.0
 @call docker container rm -f %var%
 
-@cd C:\Users\%username%\Desktop\versadb_tk-main\CFM_ID_4\
+@cd C:\Users\%username%\Desktop\versadb_tk-master\CFM_ID_4\
 @del *.txt
 
 pause
