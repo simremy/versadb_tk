@@ -22,9 +22,9 @@
 @echo	          /__i  AC / DC  i__\
 @echo		  i ii           i\ \
 @timeout /t 5
-@cd C:\Users\%username%\Desktop\versadb_tk-main\setup\
-@call conda env create -f C:\Users\%username%\Desktop\versadb_tk-main\setup\environment.yml
-@cd C:\Users\%username%\Desktop\versadb_tk-main\
+@cd C:\Users\%username%\Desktop\versadb_tk-master\setup\
+@call conda env create -f C:\Users\%username%\Desktop\versadb_tk-master\setup\environment.yml
+@cd C:\Users\%username%\Desktop\versadb_tk-master\
 @call conda activate versadb_env
 python quichante.py
 pause
