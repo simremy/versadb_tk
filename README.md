@@ -1,6 +1,6 @@
-# VersaDB
-![Fichier 3](https://github.com/user-attachments/assets/799a4074-fd3f-4d24-9c60-618a26a91521)
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/799a4074-fd3f-4d24-9c60-618a26a91521" width=20% height=20%>
+</p>
 Versa DB is a python-based program that bridges popular NMR and MS/MS spectra prediction tools (i.e. NMRShiftDB2 and CFM-ID 4.0) and natural products structural databases such as LOTUS for the generation of adaptable predicted spectral databases.
 
 ## Installation
