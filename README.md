@@ -3,6 +3,32 @@
 </p>
 Versa DB is a python-based program that bridges popular NMR and MS/MS spectra prediction tools (i.e. NMRShiftDB2 and CFM-ID 4.0) and natural products structural databases such as LOTUS for the generation of adaptable predicted spectral databases.
 
+À partir de la version 2.0, VersaDB est hébergé sur Zenodo.
+
+Téléchargement : https://doi.org/10.5281/zenodo.20303540
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Installation
 Pre-requisite : 
  - Windows 10
